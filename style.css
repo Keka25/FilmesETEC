@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    background: #272635;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    height: 100vh;
+    width: 8vw;
+    background-color: #272635;
+    position: sticky;
+    top: 0;
+    left:0;
+}
+a{ 
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+a:hover{
+    opacity: 0.8;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: tomato;
+    height: 100vh;
+    width: 91.1vw;
+    gap: 2rem;
+}
+h1{
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    text-align: center;
+    max-width: 40vw;
+    font-size: 1.0625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 6vw;
+    height: 4.5vh;
+    font-family: "Open Sans";
+    border: #272635 solid 2px;
+    background-color: #272635;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+button:hover{
+    color: #272635;
+    border: #272635 solid 2px;
+    background-color: #fff;
+}
+#one{
+    background-image: url(https://macmagazine.com.br/wp-content/uploads/2018/11/01-fragmentado.jpg);
+}
+#two{
+    background-image: url(https://f001.backblazeb2.com/file/papocine/2012/04/20180529-mv5bmja3njg4mty2ov5bml5banbnxkftztcwmjuxntuxmw._v1_sy1000_cr0014991000_al_.jpg);
+}
+#three{
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2021/05/titanic-resort-china-capa.jpg);
+}
+#four{
+    background-image: url(https://media.filmelier.com/noticias/br/2023/03/scream-vi-capa.jpg);
+}
+#five{
+    background-image: url(https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3181902:1642515142/Gente-Grande.jpg?f=default&$p$f=ca893f1);
+}
+#six{
+    background-image: url(shrek.png);
+}
+#seven{
+    background-image: url(https://umleme.com.br/wp-content/uploads/2021/04/Clube-da-luta-2.jpeg);
+}
+#eight{
+    background-image: url(https://usefors.com.br/wp-content/uploads/2020/11/The-Queens-Gambit-_077R.jpg.jpg);
+}
+#nine{
+    background-image: url(https://st1.uvnimg.com/60/cf/850462424f32a5e9c39730e1938f/forrest-gump-filme-0522-1400x800.jpg);
+}
+#ten{
+    background-image: url(https://uploads-ssl.webflow.com/5ea97ee08d96b36f2a7745f4/5eada6456af9c897e7da6352_euphoria-s01-1920.jpg);
+}
